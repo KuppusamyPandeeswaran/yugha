@@ -13,24 +13,32 @@ export default function Hero() {
         }
     }
   return (
-    <section className='flex top-0 px-5 py-10  justify-center'>
-        <div className='w-1/1 px-20'>
-            <br/><br/><br/><br/><br/>
-            <h1  className="text-blue-950  [text-shadow:_0_2px_4px_rgba(14_165_223_/_0.5)] text-4xl leading-snug font-manrope font-extrabold space-y-2">YUGHA <br/>Coaching Center
-                {/* <p className='text-2xl'>Upgrad your skills</p> */}
-                
-            </h1>
-            <br/>
-            <p className='text-2xl'>TNPSC / TET / POLICE</p>
 
-            {/* <div className='flex py-10'>
-            <a href={config.social.twitter} className='pr-5 hover:text-blue-600'><FaTwitter size={40} /></a>
-                <a href={config.social.facebook} className='pr-5 hover:text-blue-700'><FaFacebook size={40}/></a>
-                <a href={config.social.linkedin} className='hover:text-blue-400'><FaLinkedin size={40}/></a>
-            </div> */}
+<div className="relative bg-white">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center px-6 py-12 lg:py-24">
+        {/* Text Section */}
+        <div className="lg:w-1/2 text-center lg:text-left space-y-6">
+        <h1  className="text-blue-950  [text-shadow:_0_2px_4px_rgba(14_165_223_/_0.5)] text-4xl leading-snug font-manrope font-extrabold space-y-2">
+            YUGHA <br/>Coaching Center 
+        </h1>
+
+         
+          <p className="text-lg lg:text-xl text-gray-700">
+          Crack TNPSC, TET, and Police Exams with Ease – Your Pathway to Success Starts Here!
+          </p>
         </div>
-        <img src="/hero.jpg" alt="Hero Image" className="hidden md:block"></img>
-    </section>
+
+        {/* Image Section */}
+        <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
+          <img
+            className="w-full lg:max-w-full"
+            src="/hero.jpg"
+            alt="Learning Platform"
+          />
+        </div>
+      </div>
+    </div>
+
   )
 }
 
