@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './components/Header'
-import Hero from './components/hero'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -11,6 +10,8 @@ import Resume from './components/Resume'
 import Courses from './components/Courses'
 import Timer from './components/Timer'
 import Materials from './components/Materials'
+import Hero from './components/Hero'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +24,7 @@ function App() {
   return (
     <>
      <Header/>
-      <Hero />
+      <Hero/>
       <div className="min-h-min bg-gray-100 flex flex-col bg-secondary justify-center items-center p-6">
       <h1 className="text-white text-4xl font-bold mb-8">Programme of Examinations - 2025</h1>
 
