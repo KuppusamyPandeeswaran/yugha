@@ -29,7 +29,7 @@ export default function Hero() {
                 <a href={config.social.linkedin} className='hover:text-blue-400'><FaLinkedin size={40}/></a>
             </div> */}
         </div>
-        <img src="../src/assets/hero2.jpg" alt="Hero Image" className="hidden md:block"></img>
+        <img src="/hero.jpg" alt="Hero Image" className="hidden md:block"></img>
     </section>
   )
 }
